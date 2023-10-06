@@ -1,0 +1,24 @@
+
+body{
+    background-image: url("/images/nikola-majksner-hXNGeAFOgT4-unsplash.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    
+}
+#logo-text{
+    margin-top: 7px;
+    color:#489948;
+    font-family: "Dancing Script";
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+}
