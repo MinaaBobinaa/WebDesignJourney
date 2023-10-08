@@ -1,11 +1,14 @@
 
-body{
+/* page index  */
+.index-body {
     background-image: url("/images/nikola-majksner-hXNGeAFOgT4-unsplash.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+
 .logo img{
     width: 100px;
     height: 80px;
@@ -17,8 +20,53 @@ body{
 #logo-text{
     margin-top: 7px;
     color:#489948;
-    font-family: "Dancing Script";
+    font-family: 'Brush Script MT', cursive;
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
     position: relative;
 }
+
+.titre-centre {
+    text-align: center;
+    margin-top: 200px; 
+}
+
+.titre-centre h1 {
+    font-family: Times, Times New Roman, serif;
+    font-size: 80px;
+    color: rgb(222, 193, 245);
+    position: relative;
+    background-color: rgb(102, 158, 102);
+    opacity: 0.9;
+    padding: 5px 530px;
+    background-clip: content-box;
+}
+
+.navigation {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 30px;
+}
+.navigation a:hover {
+    color: rgb(168, 71, 168);
+}
+
+.navigation a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:xx-large;
+}
+
+/* page qui-sommes-nous  */
+
