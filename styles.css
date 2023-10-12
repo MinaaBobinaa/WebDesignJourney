@@ -19,7 +19,7 @@
 
 #logo-text {
     margin-top: 7px;
-    color: #489948;
+    color: #18219e;
     font-family: 'Brush Script MT', cursive;
     font-weight: bold;
     font-size: large;
@@ -92,45 +92,87 @@
 
 /* page qui-sommes-nous  */
 .body-nous {
-    background-color: rgb(20, 20, 150);
-    color: rgb(179, 193, 204);
+    background-color: rgb(105, 105, 231);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    height: 400vh;
 }
 
-.contenu {
+.container-page-org {
+    overflow: auto;
+    width: 80%;
+    height: 90%;
+    /*border: 10px solid#252525;*/
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    border: 2px;
-    max-width: 70%;
+    justify-content: space-between;
 }
 
-.intro {
-    width: 50%;
-    padding: 20px;
-}
-
-.image {
-    width: 60%;
-    padding: 100px;
-    text-align: center;
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
-}
-
-.intro h1 {
-    font-size: 30px;
-    font-family:Optima, sans-serif ;
-    font-weight: bolder;
-}
-
-.intro p {
-    font-size: 45px;
+.body-nous p {
+    font-size: 44px;
     font-family: Optima, sans-serif;
+    width: 800px;
+    height: 950px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(229, 245, 161);
+    border: 3px solid rgb(195, 207, 82);
+    border-radius: 12px;
+    padding: 5px;
 }
+
+#image1 {
+    display: flex;
+    width: 700px;
+    height: 950px;
+    border-radius: 8px;
+}
+
+#image2 {
+    display: flex;
+    width: 500px;
+    height: 950px;
+    border-radius: 8px;
+}
+
+#image3 {
+    display: flex;
+    width: 700px;
+    height: 900px;
+    border-radius: 8px;
+}
+
+.p2 {
+    flex-grow: 1;
+}
+
+#p1-contenu {
+    font-size: 53px;
+}
+
+#p2-contenu {
+    width: 1000px;
+    font-size: 55px;
+}
+
+#p3-contenu {
+    font-size: 58px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+div.menu-nous {
+    position: fixed;
+    top: 0;
+    background-color: #bbe086;
+    height: 100px;
+    width: 100%;
+  }
