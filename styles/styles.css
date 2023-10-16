@@ -173,15 +173,18 @@ div.menu-index {
 
 #p1-contenu {
     font-size: 53px;
+    color: #78598a; 
 }
 
 #p2-contenu {
     width: 1000px;
     font-size: 55px;
+    color:#eed994;
 }
 
 #p3-contenu {
     font-size: 58px;
+    color: #78598a;
 }
 
 #joint-nous:hover {
@@ -336,13 +339,16 @@ div.menu-actual {
             #9feefc 0, #9feefc 49.95%,
             #ffbd7f 49.95%, #ffbd7f 100%);
 }
-.actual-sidebar h1{
+.actual-sidebar a{
     font-family: oswald-medium, oswald, sans-serif;
     font-size: 30px;
     color: rgb(56, 47, 168);
     font-weight: bold;
     text-decoration: none;
     font-size: xx-large;
+}
+.actual-sidebar :hover a{
+    color: rgb(0, 33, 95);
 }
 #image4 {
     display:flex;
@@ -404,8 +410,8 @@ div.menu-actual {
             #9feefc 0, #9feefc 49.95%,
             #ffbd7f 49.95%, #ffbd7f 100%);
     display: grid;
-    background-image: url(images/melissa-bradley-96iwiAxOuJw-unsplash.jpg),
-        url(images/matt-palmer-kbTp7dBzHyY-unsplash.jpg);
+    background-image: url(../images/melissa-bradley-96iwiAxOuJw-unsplash.jpg),
+        url(../images/matt-palmer-kbTp7dBzHyY-unsplash.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: center top ,center bottom;
     background-size:2000px 1302px, 2000px 1304px;
@@ -460,8 +466,20 @@ div.menu-actual {
     position: static;
 }
 
-.actual-element4 {
+.actual-bas {
     grid-area: footer;
     background-color: #313131;
 }
-
+.actual-bas p {
+    position: relative;
+    left: 1750px;
+    top: 120px;
+    font-size: 30px;
+    color: #0f0909;
+}
+.actual-bas hr{
+    position: relative;
+    width:80%;
+    top: 80px;
+    border: 2px solid rgb(18, 20, 20);
+}
