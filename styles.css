@@ -312,18 +312,42 @@ div.menu-actual {
         "footer footer footer";
 }
 
-.actual-element1 {
+.actual-entete {
     grid-area: header;
-    background-color: #ffffff;
+    background-color: #f2ffb8;
+}
+.actual-entete h1{
+    position: relative;
+    top: 70px;
+    left: 925px;
+    color: #084203;
+    font-family: oswald-medium, oswald, sans-serif;
+    font-size: 50px;
+}
+.actual-entete hr{
+    position: relative;
+    top: 60px;
+    border: 8px solid rgb(43, 112, 10);
 }
 
-.actual-element2 {
+.actual-sidebar {
     grid-area: sidebar;
     background-image: linear-gradient(to bottom,
             #9feefc 0, #9feefc 49.95%,
             #ffbd7f 49.95%, #ffbd7f 100%);
 }
+.actual-sidebar h1{
+    font-family: oswald-medium, oswald, sans-serif;
+    font-size: 30px;
+    color: rgb(56, 47, 168);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: xx-large;
+}
 
+.actual-sidebar hr{
+    border: 3px solid rgb(56, 47, 168);
+}
 .actual-contenu {
     grid-area: content;
     background-image: linear-gradient(to bottom,
@@ -335,6 +359,39 @@ div.menu-actual {
     background-repeat: no-repeat, no-repeat;
     background-position: center top ,center bottom;
     background-size:2000px 1302px, 2000px 1304px;
+}
+
+.actual-contenu h1{
+    font-size: 40px;
+    color: darkblue;
+    position: relative;
+    left: 10px;
+    text-decoration: underline;
+    font-family: oswald-medium, oswald, sans-serif;
+}
+#section2{
+    position: relative;
+    bottom: 350px;
+    color: rgb(139, 0, 42);
+}
+
+.actual-contenu h2{
+    font-size: 35px;
+    color: #f7f3f3;
+    font-family: oswald-medium, oswald, sans-serif;
+}
+.actual-contenu p{
+    font-size: 30px;
+    position: relative;
+    right: 10px;
+    color: #f7f3f3;
+    font-family: oswald-medium, oswald, sans-serif;
+}
+.actual-contenu ul{
+    position: relative;
+    bottom: 300px;
+    list-style-type: square;
+    color: darkblue;
 }
 
 #image1-actual {
@@ -355,3 +412,4 @@ div.menu-actual {
     grid-area: footer;
     background-color: #313131;
 }
+
