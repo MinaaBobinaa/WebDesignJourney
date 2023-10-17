@@ -173,13 +173,13 @@ div.menu-index {
 
 #p1-contenu {
     font-size: 53px;
-    color: #78598a; 
+    color: #78598a;
 }
 
 #p2-contenu {
     width: 1000px;
     font-size: 55px;
-    color:#eed994;
+    color: #eed994;
 }
 
 #p3-contenu {
@@ -315,11 +315,20 @@ div.menu-actual {
         "footer footer footer";
 }
 
+/*
+
+
+
+
+
+*/
+
 .actual-entete {
     grid-area: header;
     background-color: #f2ffb8;
 }
-.actual-entete h1{
+
+.actual-entete h1 {
     position: relative;
     top: 70px;
     left: 925px;
@@ -327,7 +336,8 @@ div.menu-actual {
     font-family: oswald-medium, oswald, sans-serif;
     font-size: 50px;
 }
-.actual-entete hr{
+
+.actual-entete hr {
     position: relative;
     top: 60px;
     border: 9px solid rgb(43, 112, 10);
@@ -339,7 +349,8 @@ div.menu-actual {
             #9feefc 0, #9feefc 49.95%,
             #ffbd7f 49.95%, #ffbd7f 100%);
 }
-.actual-sidebar a{
+
+.actual-sidebar a {
     font-family: oswald-medium, oswald, sans-serif;
     font-size: 30px;
     color: rgb(56, 47, 168);
@@ -347,19 +358,22 @@ div.menu-actual {
     text-decoration: none;
     font-size: xx-large;
 }
-.actual-sidebar :hover a{
+
+.actual-sidebar :hover a {
     color: rgb(0, 33, 95);
 }
+
 #image4 {
-    display:flex;
+    display: flex;
     width: 250px;
     height: 205px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+
 #image5 {
-    display:flex;
+    display: flex;
     width: 250px;
     height: 201px;
     margin-left: auto;
@@ -368,30 +382,32 @@ div.menu-actual {
 }
 
 #image6 {
-    display:flex;
+    display: flex;
     width: 280px;
     height: 770px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-#sidebar-2024{
+
+#sidebar-2024 {
     font-family: oswald-medium, oswald, sans-serif;
     font-size: 20px;
-    text-align:start;
+    text-align: start;
     background-color: #f1e3c5;
     color: #3a2d2d;
     border: 2px solid rgb(87, 22, 11);
     border-radius: 5px;
 }
 
-.actual-sidebar p{
+.actual-sidebar p {
     font-family: oswald-medium, oswald, sans-serif;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
 }
-.actual-sidebar blockquote{
+
+.actual-sidebar blockquote {
     font-family: oswald-medium, oswald, sans-serif;
     font-size: 19px;
     opacity: 0.8;
@@ -401,9 +417,10 @@ div.menu-actual {
 }
 
 
-.actual-sidebar hr{
+.actual-sidebar hr {
     border: 3px solid rgb(0, 61, 38);
 }
+
 .actual-contenu {
     grid-area: content;
     background-image: linear-gradient(to bottom,
@@ -413,11 +430,11 @@ div.menu-actual {
     background-image: url(../images/melissa-bradley-96iwiAxOuJw-unsplash.jpg),
         url(../images/matt-palmer-kbTp7dBzHyY-unsplash.jpg);
     background-repeat: no-repeat, no-repeat;
-    background-position: center top ,center bottom;
-    background-size:2000px 1302px, 2000px 1304px;
+    background-position: center top, center bottom;
+    background-size: 2000px 1302px, 2000px 1304px;
 }
 
-.actual-contenu h1{
+.actual-contenu h1 {
     font-size: 40px;
     color: darkblue;
     position: relative;
@@ -425,30 +442,34 @@ div.menu-actual {
     background-clip: content-box;
     font-family: oswald-medium, oswald, sans-serif;
 }
-#section2{
+
+#section2 {
     color: rgb(139, 0, 42);
 }
 
-.actual-contenu h2{
+.actual-contenu h2 {
     font-size: 35px;
     color: #f7f3f3;
     font-family: oswald-medium, oswald, sans-serif;
 }
-.actual-contenu p{
+
+.actual-contenu p {
     font-size: 30px;
     position: relative;
     right: 10px;
     color: #f7f3f3;
     font-family: oswald-medium, oswald, sans-serif;
 }
-.actual-contenu ul{
+
+.actual-contenu ul {
     position: relative;
     bottom: 100px;
     list-style-type: square;
     color: darkblue;
 }
-.actual-contenu ol{
-    list-style: upper-roman ;
+
+.actual-contenu ol {
+    list-style: upper-roman;
     color: rgb(248, 248, 248);
 }
 
@@ -470,6 +491,7 @@ div.menu-actual {
     grid-area: footer;
     background-color: #313131;
 }
+
 .actual-bas p {
     position: relative;
     left: 1750px;
@@ -477,9 +499,53 @@ div.menu-actual {
     font-size: 30px;
     color: #0f0909;
 }
-.actual-bas hr{
+
+.actual-bas hr {
     position: relative;
-    width:80%;
+    width: 80%;
     top: 80px;
     border: 2px solid rgb(18, 20, 20);
+}
+
+.container-activ {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 3fr 20fr 1fr;
+    grid-template-areas:
+        "header1 header1 header1"
+        "sidebar1 content1 sidebar2"
+        "footer1 footer1 footer1";
+    width: 100vw;
+    height: 200vh;
+}
+
+.activ-head {
+    grid-area: header1;
+    background-color: #313131;
+
+}
+
+.activ-sidebar {
+    grid-area: sidebar1;
+    background-color: #bbe086;
+
+}
+
+.activ-sidebar2 {
+    grid-area: sidebar2;
+    background-color: #a54e26;
+
+}
+
+
+.activ-content {
+    grid-area: content1;
+    background-color: #78598a;
+
+}
+
+.activ-footer {
+    grid-area: footer1;
+    background-color: #9feefc;
+
 }
