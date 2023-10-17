@@ -330,7 +330,7 @@ div.menu-actual {
 
 .actual-entete h1 {
     position: relative;
-    top: 70px;
+    top: 20%;
     left: 925px;
     color: #084203;
     font-family: oswald-medium, oswald, sans-serif;
@@ -339,8 +339,8 @@ div.menu-actual {
 
 .actual-entete hr {
     position: relative;
-    top: 60px;
-    border: 9px solid rgb(43, 112, 10);
+    top: 10%;
+    border: 5px solid rgb(43, 112, 10);
 }
 
 .actual-sidebar {
@@ -431,7 +431,7 @@ div.menu-actual {
         url(../images/matt-palmer-kbTp7dBzHyY-unsplash.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: center top, center bottom;
-    background-size: 2000px 1302px, 2000px 1304px;
+    background-size: 100% 50%, 100% 50%;
 }
 
 .actual-contenu h1 {
@@ -494,8 +494,8 @@ div.menu-actual {
 
 .actual-bas p {
     position: relative;
-    left: 1750px;
-    top: 120px;
+    left: 80%;
+    top: 20%;
     font-size: 30px;
     color: #0f0909;
 }
@@ -503,7 +503,7 @@ div.menu-actual {
 .actual-bas hr {
     position: relative;
     width: 80%;
-    top: 80px;
+    top: 80%;
     border: 2px solid rgb(18, 20, 20);
 }
 
