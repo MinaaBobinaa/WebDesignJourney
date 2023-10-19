@@ -1,4 +1,4 @@
-# FIRST WEBSITE
+# VIEW THE WEBSITE
 
 
 
@@ -42,7 +42,7 @@ server).
 
 3. Inside the cloned repository folder, you'll find the HTML and CSS files. You can typically find HTML files with `.html` extensions and CSS files with `.css` extensions.
 
-4. Open the HTML and CSS files in your code editor to view the content.
+4. Open the HTML and CSS files in your code editor to view the content.(If you're using VScode, I recommend adding the extension `Live Server` by Ritwick Dey).
 
 
 
