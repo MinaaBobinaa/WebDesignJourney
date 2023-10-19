@@ -6,13 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bénévoles</title>
-    <!-- Ajoutez une feuille de style CSS à notre document HTML grâce à la balise link. -->
     <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
 </head>
 
 <body>
+    <div class="menu-actual">
+        <div class="logo-actual">
+            <img src="/images/logo-1446293_960_720.png" alt="logo">
+            <h1 id="logo-text-actual">SustainaGrow</h1>
+        </div>
 
+        <nav class="navigation-actual">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="activites.html">Nos activités</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-benev">
+        <div class="benev-head "></div>
+        <div class="benev-sidebar "></div>
+        <div class="benev-content ">
+            <div class="benev-content-bg">
+                <form>
+                    <div>
+                        <label>Nom</label>
+                        <input type="text" name="nom" placeholder="nom de famille" required>
+                    </div>
+                    <div>
+                        <label>Prénom</label>
+                        <input type="text" name="prénom" placeholder="prénom" required>
+                    </div>
+                    <div>
+                        <label>Courriel</label>
+                        <input type="email" name="courriel" placeholder="ex: ..@gmail.com" required>
+                    </div>
+                    <div>
+                        <label>Âge</label>
+                        <input type="number" name="age" min="10" max="100" required>
+                    </div>
+                    <div>
+                        <label>Mot de passe</label>
+                        <input type="password" name="mdp" required>
+                    </div>
+                    <div>
+                        Préférences de bénévolat (Cochez les domaines qui vous intéressent) :
+                        <div class="liste">
+                            <label><input type="checkbox"> <span>Éducation et Sensibilisation</span></label>
+                            <label><input type="checkbox"> <span>Plantation d'arbres et Reforestation</span></label>
+                            <label><input type="checkbox"> <span>Nettoyage de l'environnement</span></label>
+                            <label><input type="checkbox"> <span>Promotion des Énergies Renouvelables</span></label>
+                            <label><input type="checkbox"> <span>Soutien à l'Alimentation Durable</span></label>
+                            <label><input type="checkbox"> <span>Réduction des Émissions de Carbone</span></label>
+                            <label><input type="checkbox"> <span>Lobbying et Plaidoyer</span></label>
+                            <label><input type="checkbox"> <span>Soutien aux Organisations Environnementales</span></label>
 
+                        </div>
+                    </div>
+                    <button type="reset"> Vider</button>
+                    <button type="submit"> Envoyer</button>
+                </form>
+            </div>
+        </div>
+        <div class="benev-sidebar2 "></div>
+        <div class="benev-footer ">
+            <p> © 2023SustainaGrow, Inc. </p>
+        </div>
+    </div>
 
 </body>
+
 </html>
