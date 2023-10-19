@@ -315,14 +315,6 @@ div.menu-actual {
         "footer footer footer";
 }
 
-/*
-
-
-
-
-
-*/
-
 .actual-entete {
     grid-area: header;
     background-color: #f2ffb8;
@@ -493,10 +485,10 @@ div.menu-actual {
 }
 
 .actual-bas p {
-    position: relative;
-    left: 80%;
-    top: 20%;
-    font-size: 30px;
+    position: absolute;
+    left: 85%;
+    top: 290%;
+    font-size: 20px;
     color: #0f0909;
 }
 
@@ -506,6 +498,10 @@ div.menu-actual {
     top: 80%;
     border: 2px solid rgb(18, 20, 20);
 }
+
+/**/
+/* page activites  */
+/**/
 
 .container-activ {
     display: grid;
@@ -584,9 +580,10 @@ div.menu-actual {
     text-align: left;
     width: 98%;
     margin-left: auto;
-     margin-right: auto;
+    margin-right: auto;
 }
-.activ-content-paragraph table  {
+
+.activ-content-paragraph table {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 140%;
     border-collapse: collapse;
@@ -594,13 +591,15 @@ div.menu-actual {
     margin-left: auto;
     margin-right: auto;
 }
+
 th,
 td {
-  padding: 10px;
-  border: solid 1px #1a365c;
-  text-align: center;
+    padding: 10px;
+    border: solid 1px #1a365c;
+    text-align: center;
 }
-th{
+
+th {
     font-weight: bold;
     font-size: x-large;
     color: #1a365c;
@@ -608,22 +607,125 @@ th{
 
 tr:nth-child(odd) {
     background-color: #c1e3ff;
-  }
-  
- tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #fdffff;
-  }
+}
 
 .activ-footer {
     grid-area: footer1;
     background-color: #353535;
 
 }
-.activ-footer p{
+
+.activ-footer p {
     position: relative;
     left: 80%;
     top: 20%;
     font-size: 30px;
     color: #0f0909;
 
+}
+
+/**/
+/* page benevoles  */
+/**/
+.container-benev {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 20fr 1fr;
+    grid-template-areas:
+        "headerb headerb headerb"
+        "sidebarb contentb sidebarb2"
+        "footerb footerb footerb";
+    width: 100vw;
+    height: 100vh;
+}
+
+.benev-head {
+    grid-area: headerb;
+    background-color: #f2ffb8;
+}
+
+.benev-sidebar {
+    grid-area: sidebarb;
+    background-color: #e9e9e9;
+
+}
+
+.benev-sidebar2 {
+    grid-area: sidebarbb;
+    background-color: #e9e9e9;
+
+}
+
+.benev-content {
+    grid-area: contentb;
+    background-color: #ffffff;
+    background-image: url(../images/luca-bravo-VowIFDxogG4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+
+}
+
+.benev-footer {
+    grid-area: footerb;
+    background-color: #353535;
+
+}
+
+.benev-footer p {
+    position: absolute;
+    left: 87%;
+    top: 98%;
+    font-size: 20px;
+    color: #0f0909;
+
+}
+
+.benev-content form {
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #f8f8f8;
+    background-color: #1a365c;
+    opacity: 0.9;
+    border: 15px solid #1a365c;
+
+    font-size: 120%;
+}
+
+input[type] {
+    width: 100%;
+    padding: 2% 4%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    width: 40px;
+    height: 20px;
+
+}
+
+button[type] {
+    width: 100%;
+}
+
+.liste label {
+    display: block;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-indent: -10%;
+}
+
+.liste input {
+    vertical-align: middle;
+}
+
+.liste label span {
+    vertical-align: middle;
 }
