@@ -28,3 +28,22 @@ server).
    mkdir my-project
    cd my-project
 ```
+6. In the terminal, use the git clone command to clone the repository. Replace <repository URL> with the URL you copied in step 3:
+
+```bash
+  git clone <repository URL>
+```
+
+## View HTML and CSS Content
+
+1. Open your code editor.
+
+2. Use the code editor to navigate to the folder where you cloned the repository (the "my-project" folder, in the example above).
+
+3. Inside the cloned repository folder, you'll find the HTML and CSS files. You can typically find HTML files with `.html` extensions and CSS files with `.css` extensions.
+
+4. Open the HTML and CSS files in your code editor to view the content.
+
+
+
+
